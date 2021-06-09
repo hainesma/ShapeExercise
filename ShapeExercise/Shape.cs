@@ -13,15 +13,15 @@ namespace ShapeExercise
 
         // We won't use a constructor here because we don't want to force parameters on the children
 
-        public virtual int CalculateArea()
+        public virtual double CalculateArea()
         {
-            int area = Length * Width;
+            double area = Length * Width;
             return area;
         }
 
-        public virtual int CalculatePerimeter() 
+        public virtual double CalculatePerimeter() 
         {
-            int perimeter = Length * 2 + Width * 2;
+            double perimeter = Length * 2 + Width * 2;
             return perimeter;
         }
 

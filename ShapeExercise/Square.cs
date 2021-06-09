@@ -13,16 +13,16 @@ namespace ShapeExercise
             this.Length = Length;
         }
 
-        public override int CalculateArea()
+        public override double CalculateArea()
         {
             
-            int area = Length * Length;
+            double area = Length * Length;
             return area;
         }
 
-        public override int CalculatePerimeter()
+        public override double CalculatePerimeter()
         {
-            int perimeter = Length * 4;
+            double perimeter = Length * 4;
             return perimeter;
         }
     }
